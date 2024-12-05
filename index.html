@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bootstrap Navigation Bar</title>
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+</head>
+<body>
+  <style>
+    .container{
+      background-color: black;
+      padding: 20px;
+      margin-left: 60px;
+      color: hotpink;
+      border: 1px solid cyan;
+    }
+    body{
+      background-image: url(robot.jpg);
+      repeat: no-repeat;
+      background-position: center;
+      background-size: cover;
+      background-attachment: fixed;
+    }
+    .navbar-custom{
+        background-color: cyan;
+       }
+       .navbar-custom, .navbar-brand, .navbar-custom, .nav-link{
+        color: hotpink;
+       }
+       .navbar-custom,.navbar-link:hover{
+        color: salmon;
+       }
+
+  </style>
+  <nav class="navbar navbar-expand-lg navbar-custom">
+    <div class="container">
+        <a class="navbar-brand">GRADE 09 EMERALD</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-expanded="False" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav ms-auto">
+                <li class="nav-item">
+                    <a class="nav-link" href="https://obmontessori.edu.ph/">HOME</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="https://obmontessori.edu.ph/history-and-founders">ABOUT</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="https://www.google.com/maps/dir/15.138816,120.5927936/obmc+angeles+location/@15.1390959,120.5924218,17z/data=!3m1!4b1!4m9!4m8!1m1!4e1!1m5!1m1!1s0x3396f237c7d7ec39:0xa3cae61a3f0a87ea!2m2!1d120.5971115!2d15.1373131?entry=ttu&g_ep=EgoyMDI0MTIwMi4wIKXMDSoASAFQAw%3D%3D">LOCATE</a>
+                </li>
+                
+            </ul>
+            
+        </div>
+    </div> 
+</nav>
+ <div class="container m-5">
+  <h1 class="mb-4 text-center">
+    Robotics Club Registration Form
+  </h1>
+</div>
+<div>
+  <form>
+    <div class="container m-5">
+    <div class="row mb-3">
+      <div class="col-sm-12 col-md-6 form-group">
+        <label for="exampleName">Name</label>
+        <input type="Name" class="form-control" id="exampleName" placeholder="Please type your name here">
+      </div>
+      <div class="col-sm-12 col-md-6 form-group">
+        <label for="exampleAge">Age</label>
+        <input type="Age" class="form-control" id="exampleAge" placeholder="Please type your age here">
+    </div>
+  </form>
+</div>
+<div>
+  <form>
+    <div class="row mb-3">
+      <div class="col-sm-12 col-md-6 form-group">
+        <label for="exampleEmail">Email</label>
+        <input type="Email" class="form-control" id="exampleEmail" placeholder="Please type your email here">
+      </div>
+      <div class="col-sm-12 col-md-6 form-group">
+        <label for="examplePhonenumber">Phone Number</label>
+        <input type="Age" class="form-control" id="examplePhonenumber" placeholder="Please type your number here">
+    </div>
+  </form>
+</div>
+<div>
+  <form>
+    <div class="form-check mb-3">
+      <h4>Preferred Robotics Topic</h4>
+      <input type="checkbox" class="form-check-input" id="exampleCheck1">
+      <label class="form-check-label" for="exampleCheck1">Programming</label>
+    </div>
+      <div class="form-check mb-3">
+      <input type="checkbox" class="form-check-input" id="exampleCheck1">
+      <label class="form-check-label" for="exampleCheck1">Electronics</label>
+    </div>
+    <div class="form-check mb-3">
+      <input type="checkbox" class="form-check-input" id="exampleCheck1">
+      <label class="form-check-label" for="exampleCheck1">Mechanical Design</label>
+    </div>
+    <div class="form-check mb-3">
+      <h4>Robotics Experience Level</h4>
+      <input type="radio" class="form-check-input" id="exampleCheck1">
+      <label class="form-check-label" for="exampleCheck1">Begginer</label>
+    </div>
+      <div class="form-check mb-3">
+      <input type="radio" class="form-check-input" id="exampleCheck1">
+      <label class="form-check-label" for="exampleCheck1">Intermediate</label>
+    </div>
+    <div class="form-check mb-3">
+      <input type="radio" class="form-check-input" id="exampleCheck1">
+      <label class="form-check-label" for="exampleCheck1">Advanced</label>
+    </div>
+    <div>
+    <label for="examplePrefferedroboticsproject">Preffered Robotics Project</label>
+    <input type="Prefferedroboticsproject" class="form-control" id="examplePrefferedroboticsproject" placeholder="Please type here">
+    </div>
+    <div>
+    <label for="exampleStatementofinterest">Statement of interest</label>
+    <input type="text" class="form-control" id="exampleStatementofinterest" placeholder="Please type here">
+    </div>
+    <div>
+      <button type="submit" class="btn btn-primary">Submit</button>
+      <button type="reset" class="btn btn-secondary">Resent</button>
+    </div>
+  </form>
+</div>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
